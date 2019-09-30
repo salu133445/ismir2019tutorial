@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="{{ site.lang | default: 'en-US' }}">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+
+    {% seo %}
+
+    <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+    <meta name="viewport" content="width=device-width">
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+        <div class="title"><h1><a class="nohover" href="{{ site.github.url }}">MuseGAN</a></h1></div>
+
+        <div class="author-info">
+          <p class="author-names">
+            <a href="https://salu133445.github.io/">Hao-Wen Dong</a>,
+            <a href="http://mac.citi.sinica.edu.tw/~yang/">Yi-Hsuan Yang</a>
+          </p>
+          <p class="author-affiliations">
+            UC San Diego & Academia Sinica<br>
+            Taiwan AI Labs & Academia Sinica
+          </p>
+        </div>
+
+        <input id="main-menu-checkbox" class="main-menu-checkbox" type="checkbox">
+        <label for="main-menu-checkbox" class="menu-toggle"><i class="fas fa-bars fa-fw"></i></label>
+
+        <nav class="main-menu" role="navigation">
+          <label for="main-menu-checkbox" class="main-menu-close"><i class="fas fa-times fa-fw"></i></label>
+
+          <div class="subpage-links">
+            <a class="icon-link" href="{{ site.github.url }}"><div class="link-button"><i class="fas fa-home fa-fw"></i><span class="icon-text">&nbsp;Home</span></div></a>
+          </div>
+
+          <div class="external-links">
+            <a class="icon-link" href="{{ site.github.repository_url }}"><div class="link-button"><i class="fab fa-github fa-fw"></i><span class="icon-text">&nbsp;Github</span></div></a>
+            <a class="icon-link" href="http://musicai.citi.sinica.edu.tw/"><div class="link-button"><i class="fas fa-globe-asia fa-fw"></i><span class="icon-text">&nbsp;Music AI Lab</span></div></a>
+          </div>
+        </nav>
+      </header>
+      <section>
+
+      {{ content }}
+
+      </section>
+      <footer>
+        <hr>
+        <small>Hosted on GitHub Pages &mdash; Theme adapted from <a href="https://github.com/orderedlist/minimal">minimal</a> by <a href="https://github.com/orderedlist">orderedlist</a></small>
+      </footer>
+    </div>
+    <script src="{{ '/assets/js/scale.fix.js' | relative_url }}"></script>
+  </body>
+</html>
