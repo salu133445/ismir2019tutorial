@@ -2,7 +2,7 @@ Welcome to the website for the tutorial "Generating Music with GANs" at ISMIR 20
 
 ## Slides
 
-[ismir2019-tutorial-slides.pdf](pdf/ismir2019-tutorial-slides.pdf)
+- [ismir2019-tutorial-slides.pdf](pdf/ismir2019-tutorial-slides.pdf)
 
 ## Links to Colab notebook
 
