@@ -11,7 +11,7 @@
 
 ## Related projects
 
-- [MuseGAN](https://github.com/salu133445/musegan)
+- [MuseGAN](https://salu133445.github.io/musegan/)
 - [LeadSheetGAN](https://liuhaumin.github.io/LeadsheetArrangement/)
 
 ## Resources
