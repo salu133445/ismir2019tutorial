@@ -4,10 +4,10 @@ Welcome to the website for the tutorial "Generating Music with GANs&mdash;An Ove
 
 - [ismir2019-tutorial-slides.pdf](pdf/ismir2019-tutorial-slides.pdf)
 
-## Colab notebooks
+## Notebooks
 
-- [GAN for images](https://colab.research.google.com/drive/1Cnq9z3QvxIsVntlXKjPjbwttxeDH47Xl) (MNIST Database)
-- [GAN for pianorolls](https://colab.research.google.com/drive/1WrFtqo5LW8QfhiuhHmge9QLexWwS2BcM) (Lakh Pianoroll Dataset)
+- GAN for images (MNIST Database): `gan.ipynb` [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/salu133445/ismir2019tutorial/blob/main/gan.ipynb)
+- GAN for piano rolls (Lakh Pianoroll Dataset): `musegan.ipynb` [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/salu133445/ismir2019tutorial/blob/main/musegan.ipynb)
 
 ## Related projects
 
