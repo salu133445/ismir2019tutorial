@@ -2,7 +2,7 @@
 
 ## Slides
 
-- [ismir2019-tutorial-slides.pdf](pdf/ismir2019-tutorial-slides.pdf)
+- [ismir2019-tutorial-slides.pdf](docs/pdf/ismir2019-tutorial-slides.pdf)
 
 ## Notebooks
 
